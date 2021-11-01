@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE>
+    <Documento ID="F002-00003029">
+        <Encabezado>
+            <IdDoc>
+                <TipoEmision>0101</TipoEmision>
+                <Tipo>01</Tipo>
+                <Serie>FBOL</Serie>
+                <Numero>1</Numero>
+                <NumeroInterno>01FUBL0005</NumeroInterno>
+                <FechaEmis>2021-03-25T16:50:42</FechaEmis>
+            </IdDoc>
+            <Emisor>
+                <TipoContribuyente>6</TipoContribuyente>
+                <IDEmisor>20556695548</IDEmisor>
+                <NmbEmisor>SOUTH CONSULTING SIGNATURE PERU S.A.C.</NmbEmisor>
+                <NombreEmisor>
+                    <PrimerNombre>SOUTH CONSULTING SIGNATURE PERU S.A.C.</PrimerNombre>
+                </NombreEmisor>
+                <DomFiscal>
+                    <Calle>AV. MANUEL OLGUIN NRO. 501 INT. 602</Calle>
+                    <Departamento>LIMA</Departamento>
+                    <Distrito>SANTIAGO DE SURCO</Distrito>
+                    <Ciudad>LIMA</Ciudad>
+                    <Pais>PE</Pais>
+                    <CodigoPostal>150140</CodigoPostal>
+                    <GLN>0000</GLN>
+                </DomFiscal>
+            </Emisor>
+            <Receptor>
+                <DocRecep>
+                    <TipoDocRecep>6</TipoDocRecep>
+                    <NroDocRecep>10460002571</NroDocRecep>
+                </DocRecep>
+                <NmbRecep>DIEGO ALONSO MALCA BRAVO</NmbRecep>
+                <NombreRecep>
+                    <PrimerNombre>DIEGO ALONSO MALCA BRAVO</PrimerNombre>
+                </NombreRecep>
+                <DomFiscalRcp>
+                    <Calle>AV. JUAN PABLO II 1110 INT. A-12</Calle>
+                    <Departamento>LA LIBERTAD</Departamento>
+                    <Distrito>TRUJILLO</Distrito>
+                    <Ciudad>TRUJILLO</Ciudad>
+                    <Pais>PE</Pais>
+                    <CodigoPostal>130101</CodigoPostal>
+                    <GLN>0000</GLN>
+                </DomFiscalRcp>
+            </Receptor>
+            <Totales>
+                <Moneda>PEN</Moneda>
+                <VlrPagar>0.30</VlrPagar>
+                <VlrPalabras>SON 30/100 SOLES</VlrPalabras>
+                <TotSubMonto>
+                    <Tipo>1001</Tipo>
+                    <MontoConcepto>0.00</MontoConcepto>
+                </TotSubMonto>
+                <TotSubMonto>
+                    <Tipo>1002</Tipo>
+                    <MontoConcepto>0.00</MontoConcepto>
+                </TotSubMonto>
+                <TotSubMonto>
+                    <Tipo>1003</Tipo>
+                    <MontoConcepto>0.00</MontoConcepto>
+                </TotSubMonto>
+                <TotSubMonto>
+                    <Tipo>1004</Tipo>
+                    <MontoConcepto>10.00</MontoConcepto>
+                </TotSubMonto>
+                <TotSubMonto>
+                    <Tipo>2005</Tipo>
+                    <MontoConcepto>0.00</MontoConcepto>
+                </TotSubMonto>
+            </Totales>
+            <Impuestos>
+                <TipoImp>IGV</TipoImp>
+                <MontoImp>0.00</MontoImp>
+            </Impuestos>
+        </Encabezado>
+        <Detalle>
+            <NroLinDet>1</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>60131405</TpoCodigo>
+                <VlrCodigo>1957935</VlrCodigo>
+            </CdgItem>
+            <IndExe>1</IndExe>
+            <DscItem>CONSULTORIA DE FACTURACIÓN ELECTRÓNICA</DscItem>
+            <QtyItem>1.00</QtyItem>
+            <UnmdItem>EA</UnmdItem>
+            <PrcBrutoItem>0.00</PrcBrutoItem>
+            <PrcNetoItem>0.00</PrcNetoItem>
+            <DescuentoMonto>0.00</DescuentoMonto>
+            <ImpuestosDet>
+                <TipoImp>IGV</TipoImp>
+                <CodTasaImp>21</CodTasaImp>
+                <TasaImp>0.00</TasaImp>
+                <MontoBaseImp>10.00</MontoBaseImp>
+                <MontoImp>0.00</MontoImp>
+            </ImpuestosDet>
+            <ImpuestosDet>
+                <TipoImp>7152</TipoImp>
+                <CodTasaImp>1</CodTasaImp>
+                <TasaImp>0.30</TasaImp>
+                <MontoImp>0.30</MontoImp>
+            </ImpuestosDet>
+            <MontoTotalItem>10.00</MontoTotalItem> <!-- Valor Venta ítem, en el caso de un ítem gratuito es el resultado del producto de (Valor Referencial * QtyItem) menos los descuentos que afecta la base imponible más los cargos que afecta la base imponible.-->
+            <SubMonto>
+                <Tipo>NOO</Tipo> <!-- Código de operaciones No Onerosas, este elemento se debe enviar cuando la operación es gratuita.-->
+                <MontoConcepto>10.00</MontoConcepto> <!-- Valor referencial del monto base a nivel de ítem-->
+            </SubMonto>
+        </Detalle>
+    </Documento>
+    <Personalizados>
+        <DocPersonalizado dteID="F002-00003029">
+            <campoString name="Observaciones"/>
+        </DocPersonalizado>
+    </Personalizados>
+</DTE>

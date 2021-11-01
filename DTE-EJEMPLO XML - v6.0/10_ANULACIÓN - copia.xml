@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Anulacion version="String" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Encabezado>
+		<NumeroInterno>3874985</NumeroInterno>
+		<FechaRef>2015-09-01T00:00:00</FechaRef>
+		<!--Fecha del doc a dar de baja-->
+		<FechaEmis>2015-09-04T00:00:00</FechaEmis>
+		<!--Fecha de emisión de la baja-->
+		<Emisor>
+			<IDEmisor>20100034582</IDEmisor>
+			<!--RUC Emisor-->
+			<IDEmisorAdd>6</IDEmisorAdd>
+			<!--Identificador de RUC-->
+			<NmbEmisor>INDUSTRIAL ALPAMAYO S A</NmbEmisor>
+		</Emisor>
+	</Encabezado>
+	<DetalleDocAnulado>
+		<NroLinDet>1</NroLinDet>
+		<TipoDoc>01</TipoDoc>
+		<!--Tipo doc a dar de baja - catalogo 01-->
+		<Serie>F604</Serie>
+		<Numero>131</Numero>
+		<DscRzonAnulacion>Anulacion de la Operacion</DscRzonAnulacion>
+		<!--Motivo de la baja-->
+	</DetalleDocAnulado>
+</Anulacion>

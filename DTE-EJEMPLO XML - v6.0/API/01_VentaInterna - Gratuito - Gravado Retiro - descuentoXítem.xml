@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DTE version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Documento ID="F00200001020">
+		<Encabezado>
+			<IdDoc>
+				<Ambiente>01</Ambiente>
+				<TipoEmision>0101</TipoEmision>
+				<ContenidoTC>0</ContenidoTC>
+				<Tipo>01</Tipo>
+				<Serie>FGRA</Serie>
+				<Numero>2</Numero>
+				<Estado>ORIGINAL</Estado>
+				<NumeroInterno>0</NumeroInterno>
+				<FechaEmis>2020-05-22T00:00:00</FechaEmis>
+				<FechaVenc/>
+			</IdDoc>
+			<Emisor>
+				<TipoContribuyente>6</TipoContribuyente>
+				<IDEmisor>20556695548</IDEmisor>
+				<NmbEmisor>SOUTH CONSULTING SIGNATURE PERU S.A.C.</NmbEmisor>
+				<NombreEmisor>
+					<PrimerNombre>SOUTH CONSULTING SIGNATURE PERU S.A.C.</PrimerNombre>
+				</NombreEmisor>
+				<DomFiscal>
+					<Calle>AV. MANUEL OLGUIN NRO. 501 INT. 602</Calle>
+					<Departamento>LIMA</Departamento>
+					<Distrito>SANTIAGO DE SURCO</Distrito>
+					<Ciudad>LIMA</Ciudad>
+					<Pais>PE</Pais>
+					<CodigoPostal>150140</CodigoPostal>
+					<GLN>0000</GLN>
+				</DomFiscal>
+			</Emisor>
+			<Receptor>
+				<DocRecep>
+					<TipoDocRecep>6</TipoDocRecep>
+					<NroDocRecep>20100207941</NroDocRecep>
+				</DocRecep>
+				<NmbRecep>CLINICA MELLA.</NmbRecep>
+				<NombreRecep>
+					<PrimerNombre>CLINICA MELLA.</PrimerNombre>
+				</NombreRecep>
+				<DomFiscalRcp>
+					<Calle>AMADOR MERINO</Calle>
+					<Ciudad>LIMA</Ciudad>
+					<Pais/>
+					<GLN/>
+				</DomFiscalRcp>
+			</Receptor>
+			<Totales>
+				<Moneda>PEN</Moneda>
+				<MntDcto>0.00</MntDcto>
+				<MntRcgo>0.00</MntRcgo>
+				<VlrPagar>0.00</VlrPagar> <!-- El importe total de la venta debe de ir en 0.00 cuando es una operación gratuita en su totalidad  -->
+				<VlrPalabras>CERO  CON  00/100 Soles</VlrPalabras>   
+				<TotSubMonto>
+					<Tipo>1001</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>1002</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>1003</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>1004</Tipo>
+					<MontoConcepto>100.00</MontoConcepto> 
+				</TotSubMonto>
+			</Totales>
+			<Impuestos>
+				<TipoImp>IGV</TipoImp>
+				<MontoImp>0.00</MontoImp>
+			</Impuestos>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>45101500</TpoCodigo>
+				<VlrCodigo>0001</VlrCodigo>
+			</CdgItem>
+			<DscItem>CABLE TIERRA IGV SO</DscItem>
+			<QtyItem>1</QtyItem>
+			<UnmdItem>NIU</UnmdItem>
+			<PrcBrutoItem>0.00</PrcBrutoItem>
+			<PrcNetoItem>0.00</PrcNetoItem>
+			<ImpuestosDet>
+				<TipoImp>IGV</TipoImp>  
+				<CodTasaImp>13</CodTasaImp> <!-- Código de tasa de impuesto - catálogo 07-->
+				<TasaImp>18.00</TasaImp> <!-- Valor de la tasa del impuesto aplicado -->
+				<MontBaseImp>100.00</MontBaseImp> <!-- Base imponible del tributo a aplicar, debe ser el mismo valor venta ítem  -->
+				<MontoImp>18.00</MontoImp>  <!--Impuesto aplicado-->
+			</ImpuestosDet>
+			<DescuentoPct>0.00</DescuentoPct>
+			<DescuentoMonto>20.00</DescuentoMonto>
+			<SubDscto>
+				<TipoDscto>00</TipoDscto>
+				<GlosaDscto/>
+			</SubDscto>
+			<RecargoPct/>
+			<RecargoMonto/>
+			<SubRecargo>
+				<TipoRecargo/>
+				<GlosaRecargo/>
+			</SubRecargo>
+			<MontoBrutoItem>0.00</MontoBrutoItem>
+			<MontoNetoItem>0.00</MontoNetoItem>
+			<MontoTotalItem>100.00</MontoTotalItem> <!-- Valor Venta ítem, en el caso de un ítem gratuito es el resultado del producto de (Valor Referencial * QtyItem) menos los descuentos que afecta la base imponible más los cargos que afecta la base imponible.-->
+			<SubMonto>
+				<Tipo>NOO</Tipo> <!-- Código de operaciones No Onerosas, este elemento se debe enviar cuando la operación es gratuita.-->
+				<MontoConcepto>120.00</MontoConcepto> <!-- Valor referencial del monto base a nivel de ítem-->
+			</SubMonto>
+		</Detalle>
+	</Documento>
+	<Personalizados>
+		<DocPersonalizado dteID="ID0000005">
+			<campoString name="Email"/>
+			<campoString name="1"/>
+			<campoString name="2"/>
+			<campoString name="3"/>
+			<campoString name="4">0.00</campoString>
+			<campoString name="5">0.00</campoString>
+			<campoString name="6">0.00</campoString>
+			<campoString name="7">0.00</campoString>
+			<campoString name="8">0.00</campoString>
+			<campoString name="9">NS</campoString>
+			<campoString name="10"/>
+		</DocPersonalizado>
+	</Personalizados>
+</DTE>

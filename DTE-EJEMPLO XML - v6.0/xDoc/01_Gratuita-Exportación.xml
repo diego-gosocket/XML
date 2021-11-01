@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE>
+	<Documento ID="FE01-0000031">
+		<Encabezado>
+			<IdDoc>
+				<TipoEmision>0200</TipoEmision>
+				<FechaVenc>2020-06-06</FechaVenc>
+				<Tipo>01</Tipo>
+				<Serie>FELL</Serie>
+				<Numero>1</Numero>
+				<NumeroInterno>5RV0W9BQH8551</NumeroInterno>
+				<FechaEmis>2020-06-03T15:03:03</FechaEmis>
+				<CondPago>Crédito 15 días</CondPago>
+			</IdDoc>
+			<Emisor>
+				<TipoContribuyente>6</TipoContribuyente>
+				<IDEmisor>20600957652</IDEmisor>
+				<NmbEmisor>STEVIA ONE PERU INDUSTRIA S.A.C.</NmbEmisor>
+				<NombreEmisor>
+					<PrimerNombre/>
+				</NombreEmisor>
+				<DomFiscal>
+					<Calle>AV. S/N KM. 3 LOTE. B OTR. CARRETERA PAITA SULLANA (AV S/N KM 3 SUB LOTE B ZED - PAITA) PIURA- PAITA</Calle>
+					<Departamento>LIMA</Departamento>
+					<Distrito>LIMA</Distrito>
+					<Ciudad>SAN ISIDRO</Ciudad>
+					<Pais>PE</Pais>
+					<GLN>0000</GLN>
+				</DomFiscal>
+			</Emisor>
+			<Receptor>
+				<DocRecep>
+					<TipoDocRecep>0</TipoDocRecep>
+					<NroDocRecep>89488253147</NroDocRecep>
+				</DocRecep>
+				<NmbRecep>STEVIA NATURA SAS</NmbRecep>
+				<NombreRecep>
+					<PrimerNombre>STEVIA NATURA SAS</PrimerNombre>
+				</NombreRecep>
+				<DomFiscalRcp>
+					<Calle>
+						<![CDATA[Parc EuropÃ©en d'Entreprises - 5 Rue Georges Bizet 63200 RIOM (France)]]>
+					</Calle>
+					<Departamento/>
+					<Distrito/>
+					<Ciudad/>
+					<Pais>PE</Pais>
+					<GLN/>
+				</DomFiscalRcp>
+			</Receptor>
+			<Transporte>
+				<DocTransp>
+					<TipoDocTransp/>
+					<NroDocTransp/>
+				</DocTransp>
+			</Transporte>
+			<Totales>
+				<Moneda>USD</Moneda>
+				<SubTotal>0.00</SubTotal>
+				<MntDcto>0.00</MntDcto>
+				<MntImp>0.00</MntImp>
+				<VlrPagar>0.00</VlrPagar>
+				<VlrPalabras>CINCO Y 00/100 Dolares Americanos</VlrPalabras>
+				<TotSubMonto>
+					<Tipo>1001</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>1002</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>1003</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>1004</Tipo>
+					<MontoConcepto>5.00</MontoConcepto>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>2005</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				</TotSubMonto>
+			</Totales>
+			<Impuestos>
+				<TipoImp>1000</TipoImp>
+				<MontoImp>0.00</MontoImp>
+			</Impuestos>
+			<Impuestos>
+				<TipoImp>2000</TipoImp>
+				<MontoImp>0.00</MontoImp>
+			</Impuestos>
+			<Vehiculo>
+				<Tipo/>
+				<Placa/>
+			</Vehiculo>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>50161509</TpoCodigo>
+				<VlrCodigo>21070040002</VlrCodigo>
+			</CdgItem>
+			<IndExe>1</IndExe>
+			<DscItem>GLUCÁSIDOS DE ESTEVIOL SIN 960A (002)</DscItem>
+			<QtyItem>0.50</QtyItem>
+			<UnmdItem>KGM</UnmdItem>
+			<PrcBrutoItem>0.00</PrcBrutoItem>
+			<PrcNetoItem>0.00</PrcNetoItem>
+			<DescuentoMonto>0.00</DescuentoMonto>
+			<ImpuestosDet>
+				<TipoImp>9996</TipoImp>
+				<CodTasaImp>40</CodTasaImp>
+				<TasaImp>0.00</TasaImp>
+				<MontoBaseImp>0.00</MontoBaseImp>
+				<MontoImp>0.00</MontoImp>
+			</ImpuestosDet>
+			<MontoBrutoItem>0.00</MontoBrutoItem>
+			<MontoNetoItem>0.00</MontoNetoItem>
+			<MontoTotalItem>5.00</MontoTotalItem>
+			<SubMonto>
+				<Tipo>NOO</Tipo>
+				<MontoConcepto>10.00</MontoConcepto>
+			</SubMonto>
+		</Detalle>
+		<Referencia>
+			<MontosRef>
+				<Monto>0</Monto>
+			</MontosRef>
+		</Referencia>
+	</Documento>
+	<Personalizados>
+		<DocPersonalizado dteID="FE01-0000031">
+			<campoString name="Observaciones">GLUCÃ“SIDOS DE ESTEVIOL SIN 960A (002) - SAMPLES WITH NO COMMERCIAL VALUE</campoString>
+			<campoString name="Mail">davidrebeaux@stevia-natura.fr</campoString>
+			<campoString name="CondicionPago">CrÃ©dito 15 dÃ­as</campoString>
+			<campoString name="1002">TRANSFERENCIA GRATUITA DE UN BIEN Y/O SERVICIO PRESTADO GRATUITAMENTE</campoString>
+		</DocPersonalizado>
+	</Personalizados>
+</DTE>

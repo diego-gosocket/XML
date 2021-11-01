@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE>
+	<Documento>
+		<Encabezado>
+			<IdDoc>
+				<Tipo>09</Tipo>
+				<Serie>TKER</Serie>
+				<Numero>582</Numero>
+				<FechaEmis>2021-04-08T00:00:00</FechaEmis>
+				<PtoEmis/>
+			</IdDoc>
+			<Emisor>
+				<RegimenContable/>
+				<IDEmisor>20556695548</IDEmisor>
+				<NmbEmisor>SOUTH CONSULTING SIGNATURE PERU SAC</NmbEmisor>
+				<NombreEmisor>
+					<PrimerNombre>SOUTH CONSULTING SIGNATURE PERU SAC</PrimerNombre>
+				</NombreEmisor>
+				<DomFiscal>
+					<Calle>JR. JORGE CHAVEZ NRO. 860</Calle>
+					<Departamento>Callao</Departamento>
+					<Distrito>JR. JORGE CHAVEZ</Distrito>
+					<Ciudad>SANTIAGO DE SURCO</Ciudad>
+					<Municipio>Callao</Municipio>
+					<Pais>PE</Pais>
+					<CodigoPostal>070103</CodigoPostal>
+				</DomFiscal>
+				<LugarExped>
+					<Calle>JR. JORGE CHAVEZ NRO. 860</Calle>
+					<Departamento>Callao</Departamento>
+					<Distrito>JR. JORGE CHAVEZ</Distrito>
+					<Ciudad>SANTIAGO DE SURCO</Ciudad>
+					<Municipio>SANTIAGO DE SURCO</Municipio>
+					<Pais>PE</Pais>
+					<CodigoPostal>070103</CodigoPostal>
+				</LugarExped>
+			</Emisor>
+			<Receptor>
+				<DocRecep>
+					<TipoDocRecep>6</TipoDocRecep>
+					<NroDocRecep>20348735692</NroDocRecep>
+				</DocRecep>
+				<NmbRecep>Panificadora Bimbo del Peru S.A.</NmbRecep>
+				<NombreRecep/>
+				<DomFiscalRcp>
+					<Calle>JR. JORGE CHAVEZ NRO. 860</Calle>
+					<Departamento>Callao</Departamento>
+					<Distrito>CARMEN DE LA LEGUA - REYNOSO</Distrito>
+					<Ciudad>SANTIAGO DE SURCO</Ciudad>
+					<Municipio>SANTIAGO DE SURCO</Municipio>
+					<Pais>PE</Pais>
+					<CodigoPostal>070103</CodigoPostal>
+				</DomFiscalRcp>
+				<LugarRecep>
+					<Calle>JR. JORGE CHAVEZ NRO. 860</Calle>
+					<Departamento>Callao</Departamento>
+					<Distrito>CARMEN DE LA LEGUA - REYNOSO</Distrito>
+					<Ciudad>Callao</Ciudad>
+					<Municipio>SANTIAGO DE SURCO</Municipio>
+					<Pais>PE</Pais>
+					<CodigoPostal>070103</CodigoPostal>
+				</LugarRecep>
+			</Receptor>
+			<Transporte>
+				<DocTransp>
+					<TipoDocTransp>1</TipoDocTransp>
+					<NroDocTransp>9988776694</NroDocTransp>
+				</DocTransp>
+				<NmbTransp>Pedro LTDA</NmbTransp>
+				<MedioTransporte>
+					<MetodoTransp>CAMIÓN</MetodoTransp>
+					<NroRefTransp>ABC1122</NroRefTransp>
+				</MedioTransporte>
+			</Transporte>
+			<Totales>
+				<IndLista/>
+				<TipoLista>NIU</TipoLista>
+				<VlrPagar>0.00</VlrPagar>
+				<TotQtyItem>2.12000</TotQtyItem>
+			</Totales>
+			<Traslado>
+				<Tipo>02</Tipo>
+				<Motivo>04</Motivo>
+				<Descripcion>TRANSPORTE PRIVADO</Descripcion>
+				<Indicador>0</Indicador>
+				<Numero>1</Numero>
+				<NroExp>1</NroExp>
+				<IDorigen>150140</IDorigen>
+				<Origen>JR. JORGE CHAVEZ NRO. 860</Origen>
+				<IDdestino>150140</IDdestino>
+				<Destino>JR. JORGE CHAVEZ NRO. 860</Destino>
+				<PeriodoDesde>2021-04-08</PeriodoDesde>
+				<QtyTraslado>4987</QtyTraslado>
+			</Traslado>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>50181900</TpoCodigo>
+				<VlrCodigo>1602</VlrCodigo>
+			</CdgItem>
+			<DscItem>Mankeke 2p 60g MLA</DscItem>
+			<QtyItem>999.00000</QtyItem>
+			<UnmdItem>NIU</UnmdItem>
+			<PrcNetoItem>0.00</PrcNetoItem>
+			<MontoNetoItem>0.00</MontoNetoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>2</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>50181900</TpoCodigo>
+				<VlrCodigo>4089</VlrCodigo>
+			</CdgItem>
+			<DscItem>Keke Naranja CJ 1p 380g BIM</DscItem>
+			<QtyItem>990.00000</QtyItem>
+			<UnmdItem>NIU</UnmdItem>
+			<PrcNetoItem>0.00</PrcNetoItem>
+			<MontoNetoItem>0.00</MontoNetoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>3</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>50181900</TpoCodigo>
+				<VlrCodigo>4090</VlrCodigo>
+			</CdgItem>
+			<DscItem>Keke Naranja 1p 380g BIM</DscItem>
+			<QtyItem>999.00000</QtyItem>
+			<UnmdItem>NIU</UnmdItem>
+			<PrcNetoItem>0.00</PrcNetoItem>
+			<MontoNetoItem>0.00</MontoNetoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>4</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>50181900</TpoCodigo>
+				<VlrCodigo>4112</VlrCodigo>
+			</CdgItem>
+			<DscItem>Keke Marmoleado CJ 1p 380g BIM</DscItem>
+			<QtyItem>1000.00000</QtyItem>
+			<UnmdItem>NIU</UnmdItem>
+			<PrcNetoItem>0.00</PrcNetoItem>
+			<MontoNetoItem>0.00</MontoNetoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>5</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>50181900</TpoCodigo>
+				<VlrCodigo>4138</VlrCodigo>
+			</CdgItem>
+			<DscItem>Keke Marmoleado 1p 380g BIM</DscItem>
+			<QtyItem>999.00000</QtyItem>
+			<UnmdItem>NIU</UnmdItem>
+			<PrcNetoItem>0.00</PrcNetoItem>
+			<MontoNetoItem>0.00</MontoNetoItem>
+		</Detalle>
+	</Documento>
+	<Personalizados>
+        <DocPersonalizado dteID="01-FAPI-00000012">
+            <campoString name="Observaciones"/>
+            <campoString name="Mail1">diego.malca@gosocket.net</campoString>
+            <campoString name="DireccionCliente">AV. JUAN PABLO II 1110 INT. A-12</campoString>
+            <ImpresionDetalle>
+                <PersonNroLinDet>1</PersonNroLinDet>
+                <DetPersonAFN_01>10.00</DetPersonAFN_01>
+                <DetPersonAFN_02>10.00</DetPersonAFN_02>
+            </ImpresionDetalle>
+        </DocPersonalizado>
+    </Personalizados>
+</DTE>

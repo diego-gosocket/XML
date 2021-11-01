@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+	<Documento ID="ID0000001">
+		<Encabezado>
+			<IdDoc>
+				<Ambiente>01</Ambiente>
+				<TipoEmision>0101</TipoEmision>
+				<ContenidoTC>0</ContenidoTC>
+				<Tipo>01</Tipo>
+				<Serie>FM01</Serie>
+				<Numero>00009036</Numero>
+				<Estado>ORIGINAL</Estado>
+				<NumeroInterno>581</NumeroInterno>
+				<FechaEmis>2020-08-14</FechaEmis>
+				<FechaVenc>2020-08-14</FechaVenc>
+			</IdDoc>
+			<Emisor>
+				<IDEmisor>20440286209</IDEmisor>
+				<NmbEmisor>PRUEBAS - SIS SAC</NmbEmisor>
+				<NombreEmisor>
+					<PrimerNombre></PrimerNombre>
+				</NombreEmisor>
+				<DomFiscal>
+					<Calle>Av. Naciones Unidas 1350 Z.I. Chacra Rios  Lima - Peru</Calle>
+					<Ciudad>LIMA</Ciudad>
+					<Pais>PE</Pais>
+					<CodigoPostal></CodigoPostal>
+				<GLN>0000</GLN>
+					</DomFiscal>
+			</Emisor>
+			<Receptor>
+				<DocRecep>
+					<TipoDocRecep>6</TipoDocRecep>
+					<NroDocRecep>20557754785</NroDocRecep>
+				</DocRecep>
+				<NmbRecep>INCA CLEANING SAC</NmbRecep>
+				<NombreRecep>
+					<PrimerNombre></PrimerNombre>
+				</NombreRecep>
+				<DomFiscalRcp>
+					<Calle>MZ D LT 16 SEC 1 GRUPO25</Calle>
+					<Distrito>VILLA EL SALVADOR</Distrito>
+					<Ciudad></Ciudad>
+					<Pais>PE</Pais>
+				<GLN>0000</GLN>
+					</DomFiscalRcp>
+			</Receptor>
+			<Totales>
+				<Moneda>PEN</Moneda>
+				<MontoPeriodo>0.00</MontoPeriodo>
+				<MntDcto>0</MntDcto>
+				<MntRcgo>0.00</MntRcgo>
+				<VlrPagar>70.10</VlrPagar>
+				<VlrPalabras>SETENTA CON 10/100 SOLES</VlrPalabras>
+				<TotSubMonto>
+					<Tipo>1001</Tipo>
+					<MontoConcepto>59.41</MontoConcepto>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>1002</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>1003</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>1004</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>2001</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				<MontoTotal>0.00</MontoTotal>
+				</TotSubMonto>
+				<TotSubMonto>
+					<Tipo>2005</Tipo>
+					<MontoConcepto>0.00</MontoConcepto>
+				</TotSubMonto>
+			</Totales>
+			<Impuestos>
+				<TipoImp>1000</TipoImp>
+				<TasaImp>18.00</TasaImp>
+				<MontoImp>10.69</MontoImp>
+			</Impuestos>
+			<Impuestos>
+				<TipoImp>2000</TipoImp>
+				<TasaImp>0.00</TasaImp>
+				<MontoImp>0.00</MontoImp>
+			</Impuestos>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>31162800</TpoCodigo>
+				<VlrCodigo>108-08001-0005</VlrCodigo>
+			</CdgItem>
+			<IndExe>1</IndExe>
+			<DscItem>ANTICIPO - DIAGNOSTICO V</DscItem>
+			<QtyItem>1.00</QtyItem>
+			<UnmdItem>NIU</UnmdItem>
+			<PrcBrutoItem>59.41</PrcBrutoItem>
+			<PrcNetoItem>70.10</PrcNetoItem>
+			<DescuentoPct>0.00</DescuentoPct>
+			<DescuentoMonto>0.00</DescuentoMonto>
+			<SubDscto>
+				<TipoDscto>00</TipoDscto>
+			<MntDscto>0.00</MntDscto>
+			</SubDscto>
+				<ImpuestosDet>
+				<TipoImp>1000</TipoImp>
+				<CodTasaImp>10</CodTasaImp>
+				<TasaImp>18.00</TasaImp>
+				<MontoImp>10.69</MontoImp>
+			</ImpuestosDet>
+			<ImpuestosDet>
+				<TipoImp>2000</TipoImp>
+				<CodTasaImp>30</CodTasaImp>
+				<TasaImp>0.00</TasaImp>
+				<MontoImp>0.00</MontoImp>
+			</ImpuestosDet>
+			<MontoBrutoItem>59.41</MontoBrutoItem>
+			<MontoNetoItem>70.10</MontoNetoItem>
+			<MontoTotalItem>59.41</MontoTotalItem>
+		</Detalle>
+	</Documento>
+	<Personalizados>
+		<DocPersonalizado dteID="ID0000001">
+			<campoString name="Mail">facturacion.electronica@soloperusac.com</campoString>
+		<campoString name="HK_CondicionPago">CONTADO</campoString>
+		<campoString name="HK_Departamento">LIMA</campoString>
+		<campoString name="HK_Pais">Peru</campoString>
+		<campoString name="Hk_GuiaRemision"></campoString>
+		<campoString name="Hk_OrdenCompra"></campoString>
+		<campoString name="@Hk_TipoCambio">3.505</campoString>
+		<campoString name="HK_Vendedor">Taller Lima</campoString>
+		<campoString name="HK_CodigoCliente">C20557754785</campoString>
+		<campoString name="HK_FechaVencimiento">2020-07-23</campoString>
+		<campoString name="HK_LineaBuenContrib">NO AFECTO A RETENCION - INCORP. A REGIMEN DE BUENOS CONTRIBUYENTES RESOLUC. INT. No. 0210050003357</campoString>
+		<campoString name="HK_LineaDetraccion"></campoString>
+		<campoString name="HK_DescripcionRefCristal"></campoString>
+		<campoString name="MontoTransGrat">0.00</campoString>
+		<campoString name="FechaLetra">23 de Julio del 2020</campoString>
+		<campoString name="HK_SIANTICIPO">Y</campoString>
+		<campoString name="HK_Gratuita">N</campoString>
+		<campoString name="TipoOperacion">04</campoString> 
+		</DocPersonalizado>
+	</Personalizados>
+</DTE>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Anulacion version="String" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Encabezado>
+		<NumeroInterno>3874985</NumeroInterno>
+		<FechaRef>2021-03-24T00:00:00</FechaRef>
+		<!--Fecha del doc a dar de baja-->
+		<FechaEmis>2021-03-24T00:00:00</FechaEmis>
+		<!--Fecha de emisión de la baja-->
+		<Emisor>
+			<IDEmisor>20556695548</IDEmisor>
+			<!--RUC Emisor-->
+			<IDEmisorAdd>6</IDEmisorAdd>
+			<!--Identificador de RUC-->
+			<NmbEmisor>SOUTH CONSULTING SIGNATURE PERU SAC</NmbEmisor>
+		</Emisor>
+	</Encabezado>
+	<DetalleDocAnulado>
+		<NroLinDet>1</NroLinDet>
+		<TipoDoc>01</TipoDoc>
+		<!--Tipo doc a dar de baja - catalogo 01-->
+		<Serie>FORA</Serie>
+		<Numero>3</Numero>
+		<DscRzonAnulacion>Anulacion de la Operacion</DscRzonAnulacion>
+		<!--Motivo de la baja-->
+	</DetalleDocAnulado>
+</Anulacion>
