@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <Documento>
+    <Encabezado>
+      <IdDoc>
+        <Ambiente />
+        <TipoEmision>0101</TipoEmision>
+        <ContenidoTC />
+        <Tipo>01</Tipo>
+        <Serie>FISC</Serie>
+        <Numero>2</Numero>
+        <Estado>ORIGINAL</Estado>
+        <NumeroInterno />
+        <FechaEmis>2021-01-15T00:00:00</FechaEmis>
+        <FechaVenc />
+      </IdDoc>
+      <Emisor>
+        <TipoContribuyente>6</TipoContribuyente>
+        <IDEmisor>20556695548</IDEmisor>
+        <NmbEmisor>SOUTH CONSULTING SIGNATURE PERU S.A.C.</NmbEmisor>
+        <DomFiscal>
+          <Calle>Jiron Jorge Chavez No. 860</Calle>
+          <Distrito>Carmen de la Legua - Reynoso</Distrito>
+          <Ciudad>Callao, Lima</Ciudad>
+          <Pais>PE</Pais>
+          <CodigoPostal>070103</CodigoPostal>
+        </DomFiscal>
+      </Emisor>
+      <Receptor>
+        <DocRecep>
+          <TipoDocRecep>6</TipoDocRecep>
+          <NroDocRecep>10295877931</NroDocRecep>
+        </DocRecep>
+        <NmbRecep>Rosa Irene Condori Chije</NmbRecep>
+        <NombreRecep>
+          <PrimerNombre>Tienda De Abarrotes Rosita</PrimerNombre>
+        </NombreRecep>
+        <DomFiscalRcp>
+          <Calle>Urb Alto Misti Cal Pumacahua  329  0  Miraflores Miraflores</Calle>
+          <Ciudad>Miraflores</Ciudad>
+          <Pais>PE</Pais>
+          <GLN>0000</GLN>
+        </DomFiscalRcp>
+      </Receptor>
+      <Totales>
+        <Moneda>PEN</Moneda>
+        <SubTotal>5.24</SubTotal>
+        <VlrPagar>6.60</VlrPagar>
+        <SaldoAnterior>0.05</SaldoAnterior>
+        <VlrPalabras>SEIS CON 60/100 SOLES</VlrPalabras>
+        <TotSubMonto>
+          <Tipo>1001</Tipo>
+          <MontoConcepto>5.24</MontoConcepto>
+        </TotSubMonto>
+      </Totales>
+      <Impuestos>
+        <TipoImp>IGV</TipoImp>
+        <TasaImp>18</TasaImp>
+        <MontoImp>1.01</MontoImp>
+      </Impuestos>
+      <Impuestos>
+        <TipoImp>ISC</TipoImp>
+        <TasaImp>17</TasaImp>
+        <MontoImp>0.40</MontoImp>
+      </Impuestos>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>50181900</TpoCodigo>
+        <VlrCodigo>443</VlrCodigo>
+      </CdgItem>
+      <IndExe>1</IndExe>
+      <DscItem>Pan Hamburguesa 8p 425g BIM</DscItem>
+      <QtyItem>1</QtyItem>
+      <UnmdItem>NIU</UnmdItem>
+      <PrcBrutoItem>2.34</PrcBrutoItem>
+      <PrcNetoItem>2.76</PrcNetoItem>
+      <ImpuestosDet>
+        <TipoImp>IGV</TipoImp>
+        <CodTasaImp>10</CodTasaImp>
+        <TasaImp>18</TasaImp>
+        <MontoImp>0.49</MontoImp>
+      </ImpuestosDet>
+      <ImpuestosDet>
+        <TipoImp>ISC</TipoImp>
+        <CodTasaImp>01</CodTasaImp>
+        <TasaImp>17</TasaImp>
+        <MontoBaseImp>2.34</MontoBaseImp>
+        <MontoImp>0.4</MontoImp>
+      </ImpuestosDet>
+      <MontoBrutoItem>2.76</MontoBrutoItem>
+      <MontoNetoItem>2.34</MontoNetoItem>
+      <MontoTotalItem>2.34</MontoTotalItem>
+      <DescuentoMonto>0.00</DescuentoMonto>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>50181900</TpoCodigo>
+        <VlrCodigo>1241</VlrCodigo>
+      </CdgItem>
+      <IndExe>1</IndExe>
+      <DscItem>Mr Brown 1p 45g C/P MLA</DscItem>
+      <QtyItem>1</QtyItem>
+      <UnmdItem>NIU</UnmdItem>
+      <PrcBrutoItem>0.71</PrcBrutoItem>
+      <PrcNetoItem>0.84</PrcNetoItem>
+      <ImpuestosDet>
+        <TipoImp>IGV</TipoImp>
+        <CodTasaImp>10</CodTasaImp>
+        <TasaImp>18</TasaImp>
+        <MontoImp>0.13</MontoImp>
+      </ImpuestosDet>
+      <MontoBrutoItem>0.84</MontoBrutoItem>
+      <MontoNetoItem>0.71</MontoNetoItem>
+      <MontoTotalItem>0.71</MontoTotalItem>
+      <DescuentoMonto>0.00</DescuentoMonto>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>3</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>50181900</TpoCodigo>
+        <VlrCodigo>1585</VlrCodigo>
+      </CdgItem>
+      <IndExe>1</IndExe>
+      <DscItem>Pan Blanc Rendidor Del Hogar 1p 420g BIM</DscItem>
+      <QtyItem>1</QtyItem>
+      <UnmdItem>NIU</UnmdItem>
+      <PrcBrutoItem>2.19</PrcBrutoItem>
+      <PrcNetoItem>2.58</PrcNetoItem>
+      <ImpuestosDet>
+        <TipoImp>IGV</TipoImp>
+        <CodTasaImp>10</CodTasaImp>
+        <TasaImp>18</TasaImp>
+        <MontoImp>0.39</MontoImp>
+      </ImpuestosDet>
+      <MontoBrutoItem>2.58</MontoBrutoItem>
+      <MontoNetoItem>2.19</MontoNetoItem>
+      <MontoTotalItem>2.19</MontoTotalItem>
+      <DescuentoMonto>0.00</DescuentoMonto>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef >91</TpoDocRef >
+      <SerieRef />
+      <NumeroRef>1</NumeroRef>
+      <FechaRef>20200327</FechaRef>
+      <CodRef />
+      <RazonRef />
+    </Referencia>
+    <Referencia>
+      <NroLinRef>2</NroLinRef>
+      <TpoDocRef >99</TpoDocRef >
+      <SerieRef />
+      <NumeroRef>1</NumeroRef>
+      <FechaRef>20200327</FechaRef>
+      <CodRef />
+      <RazonRef />
+    </Referencia>
+    <Referencia>
+      <NroLinRef>3</NroLinRef>
+      <TpoDocRef >09</TpoDocRef >
+      <SerieRef>T796</SerieRef>
+      <NumeroRef>1</NumeroRef>
+      <FechaRef>20200327</FechaRef>
+      <CodRef />
+      <RazonRef />
+    </Referencia>
+  </Documento>
+  <Personalizados>
+    <DocPersonalizado>
+      <campoString name="Placa">ATD877</campoString>
+      <campoString name="Codigo Agencia">14169</campoString>
+      <campoString name="Nombre Agencia">Arequipa</campoString>
+      <campoString name="NRuta">0796</campoString>
+      <campoString name="CdgIntRecep">86424594</campoString>
+      <campoString name="Condicion">contado</campoString>
+      <campoString name="PERC">17</campoString>
+    </DocPersonalizado>
+  </Personalizados>
+</DTE>
