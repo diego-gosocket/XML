@@ -1,2 +1,118 @@
-prueba con que se puede realizar
-más de dos 
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE>
+    <Documento ID="FUBL-00000005">
+        <Encabezado>
+            <IdDoc>
+                <TipoEmision>0101</TipoEmision>
+                <Tipo>01</Tipo>
+                <Serie>FCON</Serie>
+                <Numero>1</Numero>
+                <NumeroInterno>01FUBL0005</NumeroInterno>
+                <FechaEmis>2020-12-03T16:50:42</FechaEmis>
+                <CondPago>Contado</CondPago><!-- Forma de Pago -->
+            </IdDoc>
+            <Emisor>
+                <TipoContribuyente>6</TipoContribuyente>
+                <IDEmisor>20556695548</IDEmisor>
+                <NmbEmisor>SOUTH CONSULTING SIGNATURE PERU S.A.C.</NmbEmisor>
+                <NombreEmisor>
+                    <PrimerNombre>SOUTH CONSULTING SIGNATURE PERU S.A.C.</PrimerNombre>
+                </NombreEmisor>
+                <DomFiscal>
+                    <Calle>AV. MANUEL OLGUIN NRO. 501 INT. 602</Calle>
+                    <Departamento>LIMA</Departamento>
+                    <Distrito>SANTIAGO DE SURCO</Distrito>
+                    <Ciudad>LIMA</Ciudad>
+                    <Pais>PE</Pais>
+                    <CodigoPostal>150140</CodigoPostal>
+                    <GLN>0000</GLN>
+                </DomFiscal>
+            </Emisor>
+            <Receptor>
+                <DocRecep>
+                    <TipoDocRecep>6</TipoDocRecep>
+                    <NroDocRecep>10460002571</NroDocRecep>
+                </DocRecep>
+                <NmbRecep>DIEGO ALONSO MALCA BRAVO</NmbRecep>
+                <NombreRecep>
+                    <PrimerNombre>DIEGO ALONSO MALCA BRAVO</PrimerNombre>
+                </NombreRecep>
+                <DomFiscalRcp>
+                    <Calle>AV. JUAN PABLO II 1110 INT. A-12</Calle>
+                    <Departamento>LA LIBERTAD</Departamento>
+                    <Distrito>TRUJILLO</Distrito>
+                    <Ciudad>TRUJILLO</Ciudad>
+                    <Pais>PE</Pais>
+                    <CodigoPostal>130101</CodigoPostal>
+                    <GLN>0000</GLN>
+                </DomFiscalRcp>
+            </Receptor>
+            <Totales>
+                <Moneda>PEN</Moneda>
+                <SubTotal>100.00</SubTotal>
+                <VlrPagar>118.00</VlrPagar>
+                <VlrPalabras>CIEN Y 00/100 SOLES</VlrPalabras>
+                <TotSubMonto>
+                    <Tipo>1001</Tipo>
+                    <MontoConcepto>100.00</MontoConcepto>
+                </TotSubMonto>
+                <TotSubMonto>
+                    <Tipo>1002</Tipo>
+                    <MontoConcepto>0.00</MontoConcepto>
+                </TotSubMonto>
+                <TotSubMonto>
+                    <Tipo>1003</Tipo>
+                    <MontoConcepto>0.00</MontoConcepto>
+                </TotSubMonto>
+                <TotSubMonto>
+                    <Tipo>1004</Tipo>
+                    <MontoConcepto>0.00</MontoConcepto>
+                </TotSubMonto>
+                <TotSubMonto>
+                    <Tipo>2005</Tipo>
+                    <MontoConcepto>0.00</MontoConcepto>
+                </TotSubMonto>
+            </Totales>
+            <Impuestos>
+                <TipoImp>IGV</TipoImp>
+                <MontoImp>18.00</MontoImp>
+            </Impuestos>
+        </Encabezado>
+        <Detalle>
+            <NroLinDet>1</NroLinDet>
+            <CdgItem>
+                <TpoCodigo>60131405</TpoCodigo>
+                <VlrCodigo>KPB-DRUMS-001</VlrCodigo>
+            </CdgItem>
+            <IndExe>1</IndExe>
+            <DscItem>CONSULTORIA DE FACTURACI�N ELECTR�NICA</DscItem>
+            <QtyItem>1.00</QtyItem>
+            <UnmdItem>EA</UnmdItem>
+            <PrcBrutoItem>100.00</PrcBrutoItem>
+            <PrcNetoItem>118.00</PrcNetoItem>
+            <DescuentoMonto>0.00</DescuentoMonto>
+            <ImpuestosDet>
+                <TipoImp>IGV</TipoImp>
+                <CodTasaImp>10</CodTasaImp>
+                <TasaImp>18.00</TasaImp>
+                <MontoBaseImp>100.00</MontoBaseImp>
+                <MontoImp>18.00</MontoImp>
+            </ImpuestosDet>
+			<MontoBrutoItem>100.00</MontoBrutoItem> 
+			<MontoNetoItem>118.00</MontoNetoItem>      
+            <MontoTotalItem>100.00</MontoTotalItem> 
+        </Detalle>
+    </Documento>
+    <Personalizados>
+        <DocPersonalizado dteID="FUBL-00000005">
+            <campoString name="Observaciones"/>
+            <campoString name="Mail1">diego.malca@gosocket.net</campoString>
+            <campoString name="DireccionCliente">AV. JUAN PABLO II 1110 INT. A-12</campoString>
+            <ImpresionDetalle>
+                <PersonNroLinDet>1</PersonNroLinDet>
+                <DetPersonAFN_01>10.00</DetPersonAFN_01>
+                <DetPersonAFN_02>10.00</DetPersonAFN_02>
+            </ImpresionDetalle>
+        </DocPersonalizado>
+    </Personalizados>
+</DTE>
